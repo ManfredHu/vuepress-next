@@ -52,7 +52,7 @@ jobs:
         uses: actions/setup-node@v1
         with:
           # 选择要使用的 node 版本
-          node-version: '14'
+          node-version: '16'
 
       # 缓存 node_modules
       - name: Cache dependencies
@@ -204,7 +204,7 @@ heroku login
 
 2. 设置 [Environment variables](https://docs.netlify.com/configure-builds/environment-variables) 来选择 Node 版本：
 
-    - `NODE_VERSION`: 14
+    - `NODE_VERSION`: 16
 
 3. 点击 deploy 按钮。
 

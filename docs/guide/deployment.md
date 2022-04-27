@@ -52,7 +52,7 @@ jobs:
         uses: actions/setup-node@v1
         with:
           # choose node.js version to use
-          node-version: '14'
+          node-version: '16'
 
       # cache node_modules
       - name: Cache dependencies
@@ -203,7 +203,7 @@ See [Layer0 Documentation > Framework Guides > VuePress](https://docs.layer0.co/
 
 2. Set [Environment variables](https://docs.netlify.com/configure-builds/environment-variables) to choose node version:
 
-    - `NODE_VERSION`: 14
+    - `NODE_VERSION`: 16
 
 3. Hit the deploy button.
 
